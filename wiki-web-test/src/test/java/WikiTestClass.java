@@ -15,7 +15,7 @@ public class WikiTestClass {
     @Test
     public void wikiTestSearch(){
         wd.get("https://www.wikipedia.org/");
-        wd.findElement(By.id("searchInput")).click();
+        wd.findElement(By.id("searchInput")).sendKeys("Shalomander");
         wd.findElement(By.cssSelector(".svg-search-icon")).click();
     }
     @AfterMethod
