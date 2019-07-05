@@ -2,31 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c74f60e-1e77-44c0-a325-013aee738de0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Kek-wiki-web-test_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Kek-wiki-web-test_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trello-test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trello-test/src/test/java/TrelloTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki-web-test/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki-web-test/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki-web-test/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/wiki-web-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/wiki-web-test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trello-test/src/test/java/BoardCreationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trello-test/src/test/java/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trello-test/src/test/java/TrelloLoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-test/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-test/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-test/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-test/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-test/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-test/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-test/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-test/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-test/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-test/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-test/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-test/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-test/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-test/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-test/build/classes/java/test/WikiTestClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/TrelloTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/wiki-web-test/.gradle/" />
     <ignored path="$PROJECT_DIR$/wiki-web-test/build/" />
     <ignored path="$PROJECT_DIR$/wiki-web-test/out/" />
+    <ignored path="$PROJECT_DIR$/trello-test/.gradle/" />
+    <ignored path="$PROJECT_DIR$/trello-test/build/" />
+    <ignored path="$PROJECT_DIR$/trello-test/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,12 +40,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="wiki-web-test" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -65,7 +48,53 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/TrelloLoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="55" column="23" lean-forward="true" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#904#905#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/BoardCreationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+                <element signature="e#967#968#0" expanded="true" />
+                <element signature="e#1018#1019#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -82,6 +111,11 @@
       <list>
         <option value="$PROJECT_DIR$/wiki-web-test/build.gradle" />
         <option value="$PROJECT_DIR$/wiki-web-test/src/test/java/WikiTestClass.java" />
+        <option value="$PROJECT_DIR$/trello-test/src/test/java/TrelloTest.java" />
+        <option value="$PROJECT_DIR$/trello-test/src/test/java/BoardCreationTest.java" />
+        <option value="$PROJECT_DIR$/trello-test/src/test/java/TrelloLoginTest.java" />
+        <option value="$PROJECT_DIR$/trello-test/src/test/java/TestBase.java" />
+        <option value="$PROJECT_DIR$/trello-test/src/test/java/BoardCreationTests.java" />
       </list>
     </option>
   </component>
@@ -106,12 +140,29 @@
           <expand>
             <path>
               <item name="trello-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wiki-web-test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="trello-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="trello-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wiki-web-test" type="9c53a853:ProjectViewModuleGroupNode" />
               <item name="trello-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trello-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trello-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="trello-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trello-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trello-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wiki-web-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -122,7 +173,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wiki-web-test/build.gradle" />
+    <property name="extract.method.default.visibility" value="public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -140,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.WikiTestClass">
+  <component name="RunManager" selected="TestNG.TrelloTest">
     <configuration name="WikiTestClass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -181,6 +233,17 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TrelloTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="trello-test.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TrelloTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WikiTestClass" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="wiki-web-test_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -206,6 +269,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TrelloTest" />
         <item itemvalue="TestNG.WikiTestClass" />
         <item itemvalue="TestNG.WikiTestClass.wikiTestSearch" />
         <item itemvalue="Gradle.WikiTestClass.wikiTestSearch" />
@@ -227,9 +291,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 10h 16m 54s.xml">
-      <configuration name="WikiTestClass.wikiTestSearch" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 10h 19m 17s.xml">
       <configuration name="WikiTestClass.wikiTestSearch" configurationId="TestNG" />
     </history-entry>
@@ -257,11 +318,15 @@
     <history-entry file="WikiTestClass - 2019.07.05 at 09h 21m 35s.xml">
       <configuration name="WikiTestClass" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TrelloTest - 2019.07.05 at 09h 31m 22s.xml">
+      <configuration name="TrelloTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1042" height="738" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19772257" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10257787" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -270,7 +335,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.16230367" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3322034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -278,14 +343,14 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Build" order="10" visible="true" weight="0.32984293" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32984293" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3299435" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.16459627" />
+      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.08539205" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -306,6 +371,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.141.59/8e9423038552821844ba5f7713cc4c1e6d9835b7/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/WebElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-924">
+          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/TrelloLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="55" column="23" lean-forward="true" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/BoardCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
