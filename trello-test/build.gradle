@@ -1,8 +1,8 @@
- plugins {
+plugins {
     id 'java'
 }
 
-group 'Kek'
+group 'Borsh-QA20_home'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
-    implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
     implementation 'org.testng:testng:6.14.3'
+    implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
 }

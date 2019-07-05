@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wiki-web-test.iml" filepath="$PROJECT_DIR$/.idea/modules/wiki-web-test.iml" group="wiki-web-test" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wiki-web-test_main.iml" filepath="$PROJECT_DIR$/.idea/modules/wiki-web-test_main.iml" group="wiki-web-test" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wiki-web-test_test.iml" filepath="$PROJECT_DIR$/.idea/modules/wiki-web-test_test.iml" group="wiki-web-test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-test.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-test.main.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-test.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-test.test.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-test.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wiki-web-test.iml" filepath="$PROJECT_DIR$/.idea/modules/wiki-web-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wiki-web-test.main.iml" filepath="$PROJECT_DIR$/.idea/modules/wiki-web-test.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wiki-web-test.test.iml" filepath="$PROJECT_DIR$/.idea/modules/wiki-web-test.test.iml" />
     </modules>
   </component>
 </project>

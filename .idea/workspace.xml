@@ -2,21 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c74f60e-1e77-44c0-a325-013aee738de0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Kek-wiki-web-test_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Kek-wiki-web-test_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trello-test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trello-test/src/test/java/TrelloTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wiki-web-test/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wiki-web-test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wiki-web-test/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/wiki-web-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/wiki-web-test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wiki-web-test/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-test/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wiki-web-test/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-test/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-test/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-test/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wiki-web-test/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-test/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wiki-web-test/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-test/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wiki-web-test/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-test/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wiki-web-test/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-test/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-test/build/classes/java/test/WikiTestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-test/build/classes/java/test/WikiTestClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-test/src/test/java/WikiTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-test/src/test/java/WikiTestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-test/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-test/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-test/build/classes/java/test/WikiTestClass.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/wiki-web-test/.gradle/" />
     <ignored path="$PROJECT_DIR$/wiki-web-test/build/" />
+    <ignored path="$PROJECT_DIR$/wiki-web-test/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +37,9 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/trello-test">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/wiki-web-test">
       <ProjectState />
     </projectState>
@@ -52,29 +65,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wiki-web-test/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wiki-web-test/src/test/java/WikiTestClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -108,15 +99,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="trello-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wiki-web-test" type="9c53a853:ProjectViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="trello-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wiki-web-test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="trello-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../borshteyn-QA20_home" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wiki-web-test/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -134,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.WikiTestClass.wikiTestSearch">
+  <component name="RunManager" selected="TestNG.WikiTestClass">
     <configuration name="WikiTestClass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -175,6 +181,17 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="WikiTestClass" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="wiki-web-test_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WikiTestClass" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WikiTestClass.wikiTestSearch" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="wiki-web-test_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -189,6 +206,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WikiTestClass" />
         <item itemvalue="TestNG.WikiTestClass.wikiTestSearch" />
         <item itemvalue="Gradle.WikiTestClass.wikiTestSearch" />
         <item itemvalue="Gradle.WikiTestClass" />
@@ -209,52 +227,50 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 09h 08m 22s.xml">
-      <configuration name="WikiTestClass.wikiTestSearch" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 09h 16m 35s.xml">
-      <configuration name="WikiTestClass.wikiTestSearch" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 09h 28m 07s.xml">
+    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 10h 16m 54s.xml">
       <configuration name="WikiTestClass.wikiTestSearch" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 09h 40m 21s.xml">
+    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 10h 19m 17s.xml">
       <configuration name="WikiTestClass.wikiTestSearch" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 10h 03m 03s.xml">
+    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 10h 45m 45s.xml">
       <configuration name="WikiTestClass.wikiTestSearch" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 10h 04m 48s.xml">
+    <history-entry file="WikiTestClass - 2019.06.28 at 10h 46m 27s.xml">
+      <configuration name="WikiTestClass" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 10h 46m 58s.xml">
       <configuration name="WikiTestClass.wikiTestSearch" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 10h 07m 06s.xml">
+    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 10h 47m 22s.xml">
       <configuration name="WikiTestClass.wikiTestSearch" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 10h 08m 36s.xml">
+    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 10h 47m 40s.xml">
       <configuration name="WikiTestClass.wikiTestSearch" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 10h 10m 13s.xml">
+    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 10h 48m 05s.xml">
       <configuration name="WikiTestClass.wikiTestSearch" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 10h 10m 41s.xml">
+    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 11h 04m 09s.xml">
       <configuration name="WikiTestClass.wikiTestSearch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="WikiTestClass - 2019.07.05 at 09h 21m 35s.xml">
+      <configuration name="WikiTestClass" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1042" height="738" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25349087" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19772257" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.3299435" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299435" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16230367" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -262,33 +278,34 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.3299435" />
+      <window_info anchor="bottom" id="Build" order="10" visible="true" weight="0.32984293" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3299435" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.23200859" />
+      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.16459627" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wiki-web-test/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wiki-web-test/src/test/java/WikiTestClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+        <state relative-caret-position="336">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wiki-web-test/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -344,7 +361,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>wiki-web-test_test|wiki-web-test</last-edited>
+          <last-edited>wiki-web-test|wiki-web-test</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -357,6 +374,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Gradle: com.beust:jcommander:1.72</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
