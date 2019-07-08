@@ -5,9 +5,7 @@ import org.testng.annotations.Test;
 public class BoardCreationTests  extends TestBase{
     @BeforeMethod
     public void ensurePreconditions() throws InterruptedException {
-        login("elena.telran@yahoo.com", "12345.com");
-
-
+        login("shura.borshteyn.92@mail.ru", "4d70D56E");
     }
     @Test
     public void testBoardCreationFromHeader() throws InterruptedException {
