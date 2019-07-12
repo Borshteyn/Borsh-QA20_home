@@ -16,15 +16,15 @@ public class TeamCreationTests extends TestBase{
     }
 
     private void confirmCreation() {
-        click(By.xpath("//input[@type='submit']"));
+        app.click(By.xpath("//input[@type='submit']"));
     }
 
     private void enterTeamName() {
-        type(By.id("org-display-name"),"paskudnik");
+        app.type(By.id("org-display-name"),"paskudnik");
     }
 
     private void clickCreateTeamButton() {
-        click(By.xpath("//span[contains(text(),'Создать')]/.."));
+        app.click(By.xpath("//span[contains(text(),'Создать')]/.."));
     }
 
 

@@ -1,4 +1,3 @@
-import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 public class TrelloLoginTest  extends  TestBase{
@@ -6,11 +5,11 @@ public class TrelloLoginTest  extends  TestBase{
     @Test
     public void loginTest() throws InterruptedException {
         //click login button
-        clickLoginButton();
-        fillLoginForm("elena.telran@yahoo.com", "12345.com");
-        pauseThread(3000);
-        confirmLogin();
-        pauseThread(10000);
+        app.clickLoginButton();
+        app.fillLoginForm("elena.telran@yahoo.com", "12345.com");
+        app.pauseThread(3000);
+        app.confirmLogin();
+        app.pauseThread(10000);
 
     }
 

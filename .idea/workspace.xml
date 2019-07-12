@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c74f60e-1e77-44c0-a325-013aee738de0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/trello-test/src/test/java/TeamCreationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trello-test/src/test/java/ApplicationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/TrelloTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/BoardCreationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/out/test/classes/BoardCreationTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/BoardCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/BoardCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/TeamCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/TeamCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/TrelloLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/TrelloLoginTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/wiki-web-test/.gradle/" />
@@ -51,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/TrelloLoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="189">
               <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
             </state>
           </provider>
@@ -60,16 +63,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="861">
-              <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+            <state relative-caret-position="315">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
-                <element signature="e#848#849#0" expanded="true" />
-                <element signature="e#904#905#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/BoardCreationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="273">
+              <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,18 +87,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/TeamCreationTests.java">
+        <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="1092">
+              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#547#548#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,13 +126,14 @@
         <option value="$PROJECT_DIR$/trello-test/src/test/java/TrelloTest.java" />
         <option value="$PROJECT_DIR$/trello-test/src/test/java/BoardCreationTest.java" />
         <option value="$PROJECT_DIR$/trello-test/src/test/java/TrelloLoginTest.java" />
-        <option value="$PROJECT_DIR$/trello-test/src/test/java/TestBase.java" />
-        <option value="$PROJECT_DIR$/trello-test/src/test/java/BoardCreationTests.java" />
         <option value="$PROJECT_DIR$/trello-test/src/test/java/TeamCreationTests.java" />
+        <option value="$PROJECT_DIR$/trello-test/src/test/java/BoardCreationTests.java" />
+        <option value="$PROJECT_DIR$/trello-test/src/test/java/TestBase.java" />
+        <option value="$PROJECT_DIR$/trello-test/src/test/java/ApplicationManager.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -145,8 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,6 +180,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,7 +192,16 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -204,12 +215,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TeamCreationTests">
+  <component name="RunManager" selected="TestNG.BoardCreationTests.testBoardCreationFromHeader">
     <configuration name="BoardCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="trello-test.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BoardCreationTests" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardCreationTests.testBoardCreationFromHeader" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="trello-test.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BoardCreationTests" />
+      <option name="METHOD_NAME" value="testBoardCreationFromHeader" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -249,25 +272,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WikiTestClass.wikiTestSearch" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="wiki-web-test_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WikiTestClass" />
-      <option name="METHOD_NAME" value="wikiTestSearch" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TeamCreationTests" />
+        <item itemvalue="TestNG.BoardCreationTests.testBoardCreationFromHeader" />
         <item itemvalue="TestNG.BoardCreationTests" />
+        <item itemvalue="TestNG.TeamCreationTests" />
         <item itemvalue="TestNG.TrelloTest" />
         <item itemvalue="TestNG.WikiTestClass" />
-        <item itemvalue="TestNG.WikiTestClass.wikiTestSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -285,42 +296,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 10h 45m 45s.xml">
-      <configuration name="WikiTestClass.wikiTestSearch" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WikiTestClass - 2019.06.28 at 10h 46m 27s.xml">
-      <configuration name="WikiTestClass" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 10h 46m 58s.xml">
-      <configuration name="WikiTestClass.wikiTestSearch" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 10h 47m 22s.xml">
-      <configuration name="WikiTestClass.wikiTestSearch" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 10h 47m 40s.xml">
-      <configuration name="WikiTestClass.wikiTestSearch" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 10h 48m 05s.xml">
-      <configuration name="WikiTestClass.wikiTestSearch" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WikiTestClass_wikiTestSearch - 2019.06.28 at 11h 04m 09s.xml">
-      <configuration name="WikiTestClass.wikiTestSearch" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WikiTestClass - 2019.07.05 at 09h 21m 35s.xml">
-      <configuration name="WikiTestClass" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TrelloTest - 2019.07.05 at 09h 31m 22s.xml">
-      <configuration name="TrelloTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="BoardCreationTests - 2019.07.08 at 21h 25m 08s.xml">
       <configuration name="BoardCreationTests" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TeamCreationTests - 2019.07.08 at 21h 50m 56s.xml">
+      <configuration name="TeamCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TeamCreationTests - 2019.07.08 at 21h 52m 51s.xml">
+      <configuration name="TeamCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BoardCreationTests_testBoardCreationFromHeader - 2019.07.09 at 20h 14m 40s.xml">
+      <configuration name="BoardCreationTests.testBoardCreationFromHeader" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BoardCreationTests - 2019.07.09 at 20h 20m 04s.xml">
+      <configuration name="BoardCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BoardCreationTests_testBoardCreationFromHeader - 2019.07.09 at 20h 23m 23s.xml">
+      <configuration name="BoardCreationTests.testBoardCreationFromHeader" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BoardCreationTests_testBoardCreationFromHeader - 2019.07.09 at 20h 24m 13s.xml">
+      <configuration name="BoardCreationTests.testBoardCreationFromHeader" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BoardCreationTests_testBoardCreationFromHeader - 2019.07.09 at 20h 27m 04s.xml">
+      <configuration name="BoardCreationTests.testBoardCreationFromHeader" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BoardCreationTests_testBoardCreationFromHeader - 2019.07.12 at 09h 15m 05s.xml">
+      <configuration name="BoardCreationTests.testBoardCreationFromHeader" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BoardCreationTests_testBoardCreationFromHeader - 2019.07.12 at 09h 33m 11s.xml">
+      <configuration name="BoardCreationTests.testBoardCreationFromHeader" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16272825" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16272825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -328,7 +339,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299435" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3322034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -405,51 +416,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/TrelloLoginTest.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.141.59/8e9423038552821844ba5f7713cc4c1e6d9835b7/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/By.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        <state relative-caret-position="533">
+          <caret line="336" selection-start-line="336" selection-end-line="336" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/BoardCreationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3176#3177#0" expanded="true" />
+            <element signature="e#3221#3222#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/TeamCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="357">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/BoardCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/TrelloLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
           </folding>
         </state>
       </provider>
