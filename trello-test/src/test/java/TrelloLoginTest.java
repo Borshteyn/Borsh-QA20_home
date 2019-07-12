@@ -6,14 +6,11 @@ public class TrelloLoginTest  extends  TestBase{
     public void loginTest() throws InterruptedException {
         //click login button
         app.clickLoginButton();
-        app.fillLoginForm("elena.telran@yahoo.com", "12345.com");
+        app.fillLoginForm("shura.borshteyn.92@mail.ru", "4d70D56E");
         app.pauseThread(3000);
         app.confirmLogin();
         app.pauseThread(10000);
 
     }
-
-    //_________________________________________________________________________________________________________________
-
 
 }
