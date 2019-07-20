@@ -1,3 +1,5 @@
+package com.telran.qa20.manager;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -6,36 +8,26 @@ import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
     WebDriver wd;
+    SessionHelper session;
+    TeamHelper team;
+    BoardHelper board;
 
     public void init() throws InterruptedException{
         wd = new ChromeDriver();
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wd.get("https://trello.com");
+        session = new SessionHelper(wd);
+        session.login("shura.borshteyn.92@mail.ru", "4d70D56E");
+        board = new BoardHelper(wd);
+        team = new TeamHelper(wd);
     }
 
     public void stop() {
         wd.quit();
     }
 
-    public void pauseThread(int millis) throws InterruptedException {
-        Thread.sleep(millis);
-    }
-
-    public void confirmLogin() {
-        click(By.id("login"));
-    }
-
     public void click(By locator) {
         wd.findElement(locator).click();
-    }
-
-    public void clickLoginButton() {
-        click(By.cssSelector("[href='/login']"));
-    }
-
-    public void fillLoginForm(String email, String password) {
-        type(By.id("user"), email);
-        type(By.name("password"), password);
     }
 
     public void type(By locator, String text) {
@@ -44,11 +36,15 @@ public class ApplicationManager {
         wd.findElement(locator).sendKeys(text);
     }
 
-    public void login(String email, String password) throws InterruptedException {
-        clickLoginButton();
-        fillLoginForm(email, password);
-        pauseThread(3000);
-        confirmLogin();
-        pauseThread(10000);
+    public SessionHelper getSession() {
+        return session;
+    }
+
+    public BoardHelper getBoard() {
+        return board;
+    }
+
+    public TeamHelper getTeam() {
+        return team;
     }
 }

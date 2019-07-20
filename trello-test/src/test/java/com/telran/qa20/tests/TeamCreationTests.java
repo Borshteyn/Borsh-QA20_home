@@ -1,0 +1,13 @@
+package com.telran.qa20.tests;
+
+import org.testng.annotations.Test;
+
+public class TeamCreationTests extends TestBase{
+
+    @Test
+    public void createTeamTest() throws InterruptedException {
+        app.getTeam().clickCreateTeamButton();
+        app.getTeam().enterTeamName();
+        app.getTeam().confirmCreation();
+    }
+}
