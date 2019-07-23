@@ -23,5 +23,7 @@ public class LoginTest extends TestBase{
         app.getSession().confirmLogin();
         app.getSession().pauseThread(5000);
         Assert.assertFalse(app.getSession().isUserLoggedIn());
+        app.getBoard().returnToHomepage();
+        app.getBoard().pauseThread(5000);
     }
 }
