@@ -17,7 +17,7 @@ public class TeamHelper extends HelperBase {
     }
 
     public void clickCreateTeamButton() {
-        click(By.xpath("//span[contains(text(),'Создать')]/.."));
+        click(By.xpath("//button[@data-test-id='home-navigation-create-team-button']"));
     }
 
 
