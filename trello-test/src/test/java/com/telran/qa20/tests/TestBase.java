@@ -10,7 +10,8 @@ import org.testng.annotations.BeforeSuite;
 public class TestBase {
 
 
-    ApplicationManager app = new ApplicationManager(BrowserType.CHROME);
+    static ApplicationManager app =
+            new ApplicationManager(System.getProperty("browser",BrowserType.CHROME));
 
     @BeforeSuite
     public void setUp() throws InterruptedException {

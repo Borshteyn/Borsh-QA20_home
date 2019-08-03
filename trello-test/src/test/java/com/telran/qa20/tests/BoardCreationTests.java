@@ -7,6 +7,7 @@ public class BoardCreationTests  extends TestBase{
 
     @Test
     public void testBoardCreationFromHeader() throws InterruptedException {
+        app.getBoard().returnToHomepage();
         int before = app.getBoard().getPersonalBoardsCount();
         app.getBoard().clickOnPlusButtonOnHeader();
         app.getBoard().selectCreateBoardFromDropDown();

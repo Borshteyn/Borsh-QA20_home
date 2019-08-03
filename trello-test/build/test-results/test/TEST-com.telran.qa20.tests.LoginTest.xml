@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.qa20.tests.LoginTest" tests="2" skipped="1" failures="1" errors="0" timestamp="2019-07-23T17:45:30" hostname="Maria" time="0.001">
+<testsuite name="com.telran.qa20.tests.LoginTest" tests="2" skipped="1" failures="1" errors="0" timestamp="2019-08-03T08:16:22" hostname="Maria" time="18.252">
   <properties/>
-  <testcase name="preconditions" classname="com.telran.qa20.tests.LoginTest" time="0.0">
-    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.telran.qa20.tests.LoginTest.preconditions(LoginTest.java:12)
+  <testcase name="setUp" classname="com.telran.qa20.tests.LoginTest" time="18.162">
+    <failure message="org.openqa.selenium.NoSuchWindowException: no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=75.0.3770.142)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MARIA', ip: '192.168.1.16', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Sasha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: afd88fb0188ba30e70de475ed74e893f&#10;*** Element info: {Using=xpath, value=//a[@class='btn btn-sm btn-link text-white']}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.142)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MARIA', ip: '192.168.1.16', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Sasha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: afd88fb0188ba30e70de475ed74e893f
+*** Element info: {Using=xpath, value=//a[@class='btn btn-sm btn-link text-white']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.telran.qa20.manager.HelperBase.click(HelperBase.java:14)
+	at com.telran.qa20.manager.SessionHelper.clickLoginButton(SessionHelper.java:18)
+	at com.telran.qa20.manager.SessionHelper.login(SessionHelper.java:27)
+	at com.telran.qa20.manager.ApplicationManager.init(ApplicationManager.java:40)
+	at com.telran.qa20.tests.TestBase.setUp(TestBase.java:18)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -12,16 +38,8 @@
 	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
 	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
