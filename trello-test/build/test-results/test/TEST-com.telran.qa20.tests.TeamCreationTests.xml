@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.qa20.tests.TeamCreationTests" tests="5" skipped="5" failures="0" errors="0" timestamp="2019-08-03T08:16:41" hostname="Maria" time="0.001">
+<testsuite name="com.telran.qa20.tests.TeamCreationTests" tests="5" skipped="5" failures="0" errors="0" timestamp="2019-08-03T19:25:55" hostname="Maria" time="0.001">
   <properties/>
   <testcase name="createTeamTestDataProvider" classname="com.telran.qa20.tests.TeamCreationTests" time="0.0">
     <skipped/>
