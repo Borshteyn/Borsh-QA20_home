@@ -10,23 +10,26 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.support.events.AbstractWebDriverEventListener;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
     public static class MyListener extends AbstractWebDriverEventListener {
+        Logger logger = LoggerFactory.getLogger(MyListener.class);
         @Override
         public void beforeFindBy(By by, WebElement element, WebDriver driver) {
-            System.out.println("start search" + by);
+            logger.info("start search" + by);
         }
 
         @Override
         public void afterFindBy(By by, WebElement element, WebDriver driver) {
-            System.out.println(by + "found");        }
+            logger.info(by + "found");        }
 
         @Override
         public void onException(Throwable throwable, WebDriver driver) {
-            System.out.println(throwable);
+            logger.error(throwable.toString());
         }
     }
     EventFiringWebDriver wd;
